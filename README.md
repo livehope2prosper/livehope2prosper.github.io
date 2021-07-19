@@ -1,2 +1,2 @@
-# livehope2prosper.github.io
-lh2p.org site
+# lh2p.github.io
+Hosting for https://lh2p.org/
