@@ -92,6 +92,8 @@ body .carousel-inner > .item img {
         
 .profile {
     max-width: 200px;
+    margin: 0 1em 1em;
+    border-radius: 5px;
 }
         
 .motto {
@@ -112,4 +114,5 @@ body > footer .glyphicon {
     color: #333;
     font-size: 2em;
     border-radius: 10px;
+    overflow: hidden;
 }
