@@ -1,3 +1,8 @@
+body {
+    font-size: 1.75em;
+    color: #222;
+}
+
 /* Make sure hr is proper hr */
 hr {
     clear: both;
@@ -86,16 +91,7 @@ body .carousel-inner > .item img {
 }
         
 .profile {
-    width: 100%;
-    transform: rotate(-5deg);
-    border: 1em solid #EFEFEF;
-    border-bottom: 4em solid #EFEFEF;
-    margin-bottom: 2em;
-    box-shadow: 2px 2px 7px -2px #333;
-}
-        
-.profile.inverse {
-    transform: rotate(4deg);
+    max-width: 200px;
 }
         
 .motto {
@@ -112,7 +108,8 @@ body > footer {
     border-top: 1px solid #333;
 }
 
-body > footer .glyphicon-envelope {
+body > footer .glyphicon {
     color: #333;
     font-size: 2em;
+    border-radius: 10px;
 }
