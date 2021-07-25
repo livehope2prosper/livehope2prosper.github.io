@@ -17,13 +17,14 @@ hr {
     position: relative;
 }
 
-/* Size logo */
+/* Size & position logo. */
 .navbar-brand {
     height: auto;
     padding: 0;
 }
 .navbar-brand .logo {
     height: 100px;
+    margin-left: -115px;
 }
 
 .navbar-center {
@@ -32,9 +33,30 @@ hr {
     transform: translatex(-50%);
 }
 
+@media (max-width: 1200px) {
+    /* Remove centeredness. */
+    .navbar-center {
+        position: relative;
+        left: auto;
+        transform: none;
+    }
+}
+
+/* Navbar 
+
 /* Navbar text colour */
-.navbar a {
-    color: #292663;
+.navbar .nav a {
+    color: #336;
+    height: 100%;
+    margin-top: calc(50% - 10px);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar .nav a:hover, .navbar .nav a:active, .navbar .nav a:focus {
+    color: #225;
+    background: transparent;
+    text-decoration: underline;
 }
 
 .navbar li.active a {
@@ -42,7 +64,7 @@ hr {
 }
         
 .navbar .navbar-toggle .icon-bar {
-    background-color: #f37121;
+    background-color: #517;
 }
 
 
