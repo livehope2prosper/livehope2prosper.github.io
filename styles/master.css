@@ -8,6 +8,13 @@ hr {
     clear: both;
 }
 
+/* Stick navbar to top */
+nav {
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+
 /* Remove the navbar's default margin-bottom and rounded borders */ 
 .navbar {
     margin-bottom: 0;
@@ -51,11 +58,18 @@ hr {
 }
 
 .navbar .nav a:hover, .navbar .nav a:active, .navbar .nav a:focus {
-    color: #225;
+    color: #517;
 }
 
 .navbar li.active a {
     font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+    /* Remove all that padding. */
+    .navbar .nav a {
+        padding: 15px 10px;
+    }
 }
         
 .navbar .navbar-toggle .icon-bar {
