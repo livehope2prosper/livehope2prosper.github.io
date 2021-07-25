@@ -71,7 +71,7 @@ nav {
     font-weight: 700;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     /* Remove all that padding. */
     .navbar .nav a {
         padding: 15px 10px;
