@@ -47,16 +47,11 @@ hr {
 /* Navbar text colour */
 .navbar .nav a {
     color: #336;
-    height: 100%;
-    margin-top: calc(50% - 10px);
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 40px 20px;
 }
 
 .navbar .nav a:hover, .navbar .nav a:active, .navbar .nav a:focus {
     color: #225;
-    background: transparent;
-    text-decoration: underline;
 }
 
 .navbar li.active a {
