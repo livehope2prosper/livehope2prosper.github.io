@@ -1,3 +1,4 @@
+/* Set base styles. */
 body {
     font-size: 1.75em;
     color: #222;
@@ -6,6 +7,11 @@ body {
 /* Make sure hr is proper hr */
 hr {
     clear: both;
+}
+
+/* Align text to top/super level. */
+.super-align {
+    vertical-align: super;
 }
 
 /* Stick navbar to top */
