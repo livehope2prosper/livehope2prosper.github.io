@@ -77,6 +77,11 @@ nav {
         padding: 15px 10px;
     }
 }
+
+.navbar .navbar-toggle {
+    line-height: 20px;
+    padding: 40px 0;
+}
         
 .navbar .navbar-toggle .icon-bar {
     background-color: #517;
@@ -149,8 +154,19 @@ body .carousel-inner > .item img {
 .banners {
     object-fit: cover;
     object-position: center;
-    width: 100%;
-    max-height: 4em;
+    width: calc(100% - 2em);
+    max-height: 7em;
+    margin: 1em 1em 3em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -2px #222;
+    filter: saturate(0.9) brightness(0.9);
+}
+
+.banners:hover {
+    width: calc(100% - 1em);
+    max-height: 8em;
+    box-shadow: 5px 5px 20px -2px #222;
+    filter: saturate(1) brightness(1);
 }
         
 .smaller-size {
