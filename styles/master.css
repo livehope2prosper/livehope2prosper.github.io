@@ -160,13 +160,14 @@ body .carousel-inner > .item img {
     border-radius: 10px;
     box-shadow: 5px 5px 15px -2px #222;
     filter: saturate(0.9) brightness(0.9);
+    transition: 250ms;
 }
 
 .banners:hover {
-    width: calc(100% - 1em);
-    max-height: 8em;
     box-shadow: 5px 5px 20px -2px #222;
     filter: saturate(1) brightness(1);
+    scale: 1.05;
+    transition: 400ms;
 }
         
 .smaller-size {
