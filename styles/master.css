@@ -145,6 +145,13 @@ body .carousel-inner > .item img {
     max-height: 3em;
     max-width: 100%;
 }
+
+.banners {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-height: 4em;
+}
         
 .smaller-size {
     transform: scale(0.9);
