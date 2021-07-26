@@ -132,9 +132,18 @@ body .carousel-inner > .item img {
     margin: 0 1em 1em;
     border-radius: 5px;
 }
+
+.map {
+    max-width: 100%;
+    padding: 0.5em;
+    margin: 1em;
+    box-shadow: 1px 1px 7px -2px #333;
+    border-radius: 5px;
+}
         
 .motto {
     max-height: 3em;
+    max-width: 100%;
 }
         
 .smaller-size {
