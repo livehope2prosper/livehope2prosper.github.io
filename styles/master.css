@@ -158,31 +158,31 @@ main {
     overflow-x: hidden;
     overflow-y: auto;
     perspective: 2px;
-  }
+}
   
-  section {
+section {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-  }
+}
   
-  .no-parallax {
+.no-parallax {
     background-color: #efefef;
-  }
+    padding: 3em 0;
+}
   
-  section h1 {
+section h1 {
     text-align: center;
     font-size: 4rem;
     font-family: sans-serif;
-  }
+}
   
-  .parallax {
+.parallax {
     height: 125px;
-  }
+}
   
-  .parallax::after {
+.parallax::after {
     content: " ";
     position: absolute;
     top: 0;
@@ -193,18 +193,26 @@ main {
     background-size: 150%;
     z-index: -1;
     height: 400px;
-  }
+}
   
-  .bg::after {
+.bg::after {
     background-size: cover;
   }
 
-  .bg.returntowork::after {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/returntowork.jpg');
+.bg.returntowork::after {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/returntowork.jpg') no-repeat center;
 }
 
 .bg.ergonomics::after {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/ergonomics.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/ergonomics.jpg') no-repeat center;
+}
+
+.bg.gradual::after {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/gradual.jpg') no-repeat center;
+}
+
+.bg.community::after {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/community.jpg') no-repeat center;
 }
 
 .banners {
