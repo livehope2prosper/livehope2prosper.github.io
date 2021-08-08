@@ -86,51 +86,6 @@ nav {
 .navbar .navbar-toggle .icon-bar {
     background-color: #517;
 }
-
-
-/* Set height for carousel */
-#carousel-main {
-    height: 40vh;
-    min-height: 200px;
-}
-    
-.carousel-inner {
-    height: 40vh;
-    min-height: 200px;
-}
-    
-.carousel-inner > .item {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-    
-body .carousel-inner > .item img {
-    width: 100%; /* Set width to 100% */
-    margin: auto;
-    height: 40vh;
-    min-height: 200px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.carousel-inner .btn {
-    margin-bottom: 1em;
-    font-weight: 700;
-}
-        
-.mission {
-    margin: 2em 0;
-    padding: 1em;
-    font-size: 1.25em;
-    font-style: italic;
-    font-weight: 700;
-    border: 3px solid #DDD;
-    border-top: none;
-    border-bottom: none;
-}
         
 .profile {
     max-width: 200px;
@@ -145,6 +100,52 @@ body .carousel-inner > .item img {
     box-shadow: 1px 1px 7px -2px #333;
     border-radius: 5px;
 }
+
+/* Make nice blockquote -  */
+.quote-card {
+    background: #fff;
+    color: #222222;
+    padding: 20px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+    position: relative;
+    overflow: hidden;
+    min-height: 120px;
+  }
+  .quote-card p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 80%;
+  }
+  .quote-card:before {
+    font-family: Georgia, serif;
+    content: "“";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 5em;
+    color: rgba(238, 238, 238, 0.8);
+    font-weight: normal;
+  }
+  .quote-card:after {
+    font-family: Georgia, serif;
+    content: "”";
+    position: absolute;
+    bottom: -110px;
+    line-height: 100px;
+    right: -32px;
+    font-size: 25em;
+    color: rgba(238, 238, 238, 0.8);
+    font-weight: normal;
+  }
+  @media (max-width: 640px) {
+    .quote-card:after {
+      font-size: 22em;
+      right: -25px;
+    }
+  }
         
 .motto {
     max-height: 3em;
