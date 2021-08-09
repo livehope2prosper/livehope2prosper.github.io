@@ -158,6 +158,10 @@ nav {
 }
 
 /* Banners - nice scroll effect. */
+.parallax-text-first{
+    margin-bottom: 3em;
+}
+
 .parallax-text {
     margin-top: 2.5em;
     margin-bottom: 3em;
