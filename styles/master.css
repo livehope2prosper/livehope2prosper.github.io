@@ -158,6 +158,11 @@ nav {
 }
 
 /* Banners - nice scroll effect. */
+.parallax-text {
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+}
+
 .parallax {
     /* Set a specific height */
     min-height: 250px;
