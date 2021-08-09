@@ -1,3 +1,7 @@
+body, html {
+    height: 100%;
+}
+
 /* Set base styles. */
 body {
     font-size: 1.75em;
@@ -153,32 +157,6 @@ nav {
     max-width: 100%;
 }
 
-main {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    perspective: 2px;
-}
-  
-section {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-  
-.no-parallax {
-    background-color: #efefef;
-    padding: 3em 0;
-}
-  
-section h1 {
-    text-align: center;
-    font-size: 4rem;
-    font-family: sans-serif;
-}
-
-
 /* Banners - nice scroll effect. */
 .parallax {
     /* Set a specific height */
@@ -193,19 +171,19 @@ section h1 {
 }
 
 .parallax.returntowork {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/returntowork.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/returntowork.jpg');
 }
 
 .parallax.ergonomics {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/ergonomics.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/ergonomics.jpg');
 }
 
 .parallax.gradual {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/gradual.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/gradual.jpg');
 }
 
 .parallax.community {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/community.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/community.jpg');
 }
         
 .smaller-size {
